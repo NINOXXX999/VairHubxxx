@@ -189,7 +189,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "rbxassetid://15673928211"
+ImageButton1.Image = "rbxassetid://15435099885"
 ImageButton1.MouseButton1Down:connect(function()
 game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
 game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -408,7 +408,7 @@ function Update:Window(text,logo,keybind)
   --  UserImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
     UserImage.Position = UDim2.new(0, 10, 0, -15)
     UserImage.Size = UDim2.new(0, 25, 0, 25)
-    UserImage.Image = "rbxassetid://15673928211"
+    UserImage.Image = "rbxassetid://15435099885"
     local UserImageCorner = Instance.new("UICorner")
     UserImageCorner.CornerRadius = UDim.new(0, 100)
     UserImageCorner.Name = "UserImageCorner"
@@ -421,7 +421,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://15673928211"
+	Logo.Image = "rbxassetid://15479783092"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
@@ -823,7 +823,7 @@ function Update:Window(text,logo,keybind)
         ImageButton.BorderSizePixel = 0
         ImageButton.Position = UDim2.new(0, 350, 0, 6)
         ImageButton.Size = UDim2.new(0, 20, 0, 20)
-        ImageButton.Image = "rbxassetid://15673928211"
+        ImageButton.Image = "rbxassetid://15435099885"
         ImageButton.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -886,7 +886,7 @@ function Update:Window(text,logo,keybind)
     function main:AddToggle(TogInfo ,default, callback)
         local toggle = false
         if logo == nil then
-            logo = "15673928211"
+            logo = "15009422255"
         end
         local CheckFrame = Instance.new("Frame")
         local CheckFrame2 = Instance.new("Frame")
@@ -933,7 +933,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 5, 0, 6)
         ImageLabel.Size = UDim2.new(0, 20, 0, 20)
-        ImageLabel.Image = "rbxassetid://15673928211"
+        ImageLabel.Image = "rbxassetid://15435099885"
         ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         Space.Name = "Space"
@@ -1287,7 +1287,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
         ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-        ImageLabel.Image = "rbxassetid://15673928211"
+        ImageLabel.Image = "rbxassetid://15435099885"
             
         Title.Parent = SliderFrame_2
         Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -3841,10 +3841,18 @@ local Misc = Library:AddTab("KhĂ¡c","4483345998")
 --- ThĂ´ng Tin
 NguyenTien:AddLabel("Do PhiĂªn Dá»‹ch KhĂ´ng Hiá»ƒu Háº¿t.\n Muá»‘n GĂ³p Ă HĂ£y Tham Gia Discord.")
 NguyenTien:AddSeperator("ThĂ´ng Tin PhĂ¡t Triá»ƒn")
+NguyenTien:AddLabel("NhĂ  SĂ¡ng Láº­p: Nino")
 NguyenTien:AddLabel("Ui: Thunderz Hub")
-NguyenTien:AddLabel("Thank You For Assisting Me With\n The Script Interface!"
+NguyenTien:AddLabel("Thank You For Assisting Me With\n The Script Interface!")
+
+NguyenTien:AddSeperator("Máº¡ng XĂ£ Há»™i")
+NguyenTien:AddButton("Discord Sever",function()
+setclipboard("https://discord.gg/z2Z7W4tXsv")
+Notif.New("Copying To Clipboard DoneđŸ‰", 3)
+end)
 ---- Trang Chá»§
 Main:AddSeperator("CĂ i Äáº·t Farm")
+
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
 Main:AddDropdown("Chá»n vÅ© khĂ­",WeaponList,function(value)
@@ -5756,7 +5764,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Superhuman" ,
-							Icon = "http://www.roblox.com/asset/?id=15673928211",
+							Icon = "http://www.roblox.com/asset/?id=15435099885",
 							Duration = 2.5
 						})
 					end
@@ -5768,7 +5776,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Death Step" ,
-							Icon = "http://www.roblox.com/asset/?id=15673928211",
+							Icon = "http://www.roblox.com/asset/?id=15435099885",
 							Duration = 2.5
 						})
 					end
@@ -5780,7 +5788,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
-							Icon = "http://www.roblox.com/asset/?id=15673928211",
+							Icon = "http://www.roblox.com/asset/?id=15435099885",
 							Duration = 2.5
 						})
 					end
@@ -5792,7 +5800,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Electric Claw" ,
-							Icon = "http://www.roblox.com/asset/?id=15673928211",
+							Icon = "http://www.roblox.com/asset/?id=15435099885",
 							Duration = 2.5
 						})
 					end
@@ -5802,7 +5810,7 @@ spawn(function()
 								game.StarterGui:SetCore("SendNotification", {
 									Title = "Notification", 
 									Text = "Not Have Enough Material" ,
-									Icon = "http://www.roblox.com/asset/?id=15673928211",
+									Icon = "http://www.roblox.com/asset/?id=15435099885",
 									Duration = 2.5
 								})
 							else
@@ -5813,7 +5821,7 @@ spawn(function()
 						game.StarterGui:SetCore("SendNotification", {
 							Title = "Notification", 
 							Text = "Not Have Dragon Talon" ,
-							Icon = "http://www.roblox.com/asset/?id=15673928211",
+							Icon = "http://www.roblox.com/asset/?id=15435099885",
 							Duration = 2.5
 						})
 					end
@@ -7052,7 +7060,7 @@ wait(0.5)
 elseif state and (not findItem("Monster Magnet", 1) or not findItem("Terror Eyes", 2) and not findItem("Electric Wing", 8) and not findItem("Fool's Gold", 20) and not findItem("Shark Tooth", 10)) then
     _G.BjirAnchorCuy = false
     game.StarterGui:SetCore("SendNotification", {
-        Icon = "rbxassetid://15673928211",
+        Icon = "rbxassetid://15435099885",
         Title = "! WARNING !", 
         Text = "You need more materials \nto buy a Monster Magnet."
     })
@@ -9320,7 +9328,7 @@ end)
                 if _G.AutoObservation then
                     if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                         game:GetService("StarterGui"):SetCore("SendNotification", {
-                            Icon = "rbxassetid://15673928211";
+                            Icon = "rbxassetid://15435099885";
                             Title = "Tráº¡ng ThĂ¡i Haki", 
                             Text = "Báº¡n ÄĂ£ Max Äiá»ƒm"
                         })

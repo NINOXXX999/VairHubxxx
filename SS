@@ -408,7 +408,7 @@ function Update:Window(text,logo,keybind)
   --  UserImage.BackgroundColor3 = Color3.fromRGB(225, 225, 225)
     UserImage.Position = UDim2.new(0, 10, 0, -15)
     UserImage.Size = UDim2.new(0, 25, 0, 25)
-    UserImage.Image = "rbxassetid://15435099885"
+    UserImage.Image = "rbxassetid://15673928211"
     local UserImageCorner = Instance.new("UICorner")
     UserImageCorner.CornerRadius = UDim.new(0, 100)
     UserImageCorner.Name = "UserImageCorner"
@@ -933,7 +933,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 5, 0, 6)
         ImageLabel.Size = UDim2.new(0, 20, 0, 20)
-        ImageLabel.Image = "rbxassetid://15435099885"
+        ImageLabel.Image = "rbxassetid://15673928211"
         ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
         Space.Name = "Space"
@@ -3841,23 +3841,8 @@ local Misc = Library:AddTab("KhĂ¡c","4483345998")
 --- ThĂ´ng Tin
 NguyenTien:AddLabel("Do PhiĂªn Dá»‹ch KhĂ´ng Hiá»ƒu Háº¿t.\n Muá»‘n GĂ³p Ă HĂ£y Tham Gia Discord.")
 NguyenTien:AddSeperator("ThĂ´ng Tin PhĂ¡t Triá»ƒn")
-NguyenTien:AddLabel("NhĂ  SĂ¡ng Láº­p: Nguyen Tien (Tiny)")
-NguyenTien:AddLabel("Há»— Trá»£ Code: Lynx (Báº¡n GĂ¡i Cá»§a TĂ´i)")
 NguyenTien:AddLabel("Ui: Thunderz Hub")
-NguyenTien:AddLabel("Thank You For Assisting Me With\n The Script Interface!")
-
-NguyenTien:AddSeperator("Máº¡ng XĂ£ Há»™i")
-NguyenTien:AddButton("Discord Sever",function()
-setclipboard("https://discord.gg/Dg5nr8CrVV")
-Notif.New("Copying To Clipboard DoneđŸ‰", 3)
-end)
-NguyenTien:AddButton("YouTube Official",function()
-setclipboard("https://youtube.com/@imtienguyenz")
-Notif.New("Copying To Clipboard DoneđŸ‰", 3)
-end)
-NguyenTien:AddButton("Facebook Official Owner",function()
-setclipboard("https://www.facebook.com/minhtien.modder")
-Notif.New("Copying To Clipboard DoneđŸ‰", 3)
+NguyenTien:AddLabel("Thank You For Assisting Me With\n The Script Interface!"
 end)
 ---- Trang Chá»§
 Main:AddSeperator("CĂ i Äáº·t Farm")
@@ -7069,7 +7054,7 @@ wait(0.5)
 elseif state and (not findItem("Monster Magnet", 1) or not findItem("Terror Eyes", 2) and not findItem("Electric Wing", 8) and not findItem("Fool's Gold", 20) and not findItem("Shark Tooth", 10)) then
     _G.BjirAnchorCuy = false
     game.StarterGui:SetCore("SendNotification", {
-        Icon = "rbxassetid://15435099885",
+        Icon = "rbxassetid://15673928211",
         Title = "! WARNING !", 
         Text = "You need more materials \nto buy a Monster Magnet."
     })

@@ -3843,10 +3843,8 @@ NguyenTien:AddLabel("Do PhiĂªn Dá»‹ch KhĂ´ng Hiá»ƒu Háº¿t.\n Muá�
 NguyenTien:AddSeperator("ThĂ´ng Tin PhĂ¡t Triá»ƒn")
 NguyenTien:AddLabel("Ui: Thunderz Hub")
 NguyenTien:AddLabel("Thank You For Assisting Me With\n The Script Interface!"
-end)
 ---- Trang Chá»§
 Main:AddSeperator("CĂ i Äáº·t Farm")
-
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
 Main:AddDropdown("Chá»n vÅ© khĂ­",WeaponList,function(value)

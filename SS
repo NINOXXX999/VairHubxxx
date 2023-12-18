@@ -421,7 +421,7 @@ function Update:Window(text,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, -5, 0, -5)
 	Logo.Size = UDim2.new(0, 135, 0, 135)
-	Logo.Image = "rbxassetid://15479783092"
+	Logo.Image = "rbxassetid://15673928211"
     local Tab = Instance.new("Frame")
     Tab.Name = "Tab"
     Tab.Parent = Main
@@ -886,7 +886,7 @@ function Update:Window(text,logo,keybind)
     function main:AddToggle(TogInfo ,default, callback)
         local toggle = false
         if logo == nil then
-            logo = "15009422255"
+            logo = "15673928211"
         end
         local CheckFrame = Instance.new("Frame")
         local CheckFrame2 = Instance.new("Frame")
@@ -3825,9 +3825,9 @@ getgenv().HyperCahayas = function(p)
         game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
     end)
 
-local Library = Update:Window("Vair Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("Apple Hub","",Enum.KeyCode.RightControl);
 
-local Ninoxxx = Library:AddTab("ThĂ´ng Tin","4483345998")
+local NguyenTien = Library:AddTab("ThĂ´ng Tin","4483345998")
 local Main = Library:AddTab("ChĂ­nh","4483345998")
 local M = Library:AddTab("Váº­t pháº©m","4483345998")
 local Ss = Library:AddTab("Chá»‰ sá»‘","4483345998")
@@ -3839,16 +3839,24 @@ local S = Library:AddTab("Cá»­a hĂ ng","4483345998")
 local D = Library:AddTab("Cá»­a hĂ ng Fruit","4483345998")
 local Misc = Library:AddTab("KhĂ¡c","4483345998")
 --- ThĂ´ng Tin
-Nino:AddLabel("Do PhiĂªn Dá»‹ch KhĂ´ng Hiá»ƒu Háº¿t.\n Muá»‘n GĂ³p Ă HĂ£y Tham Gia Discord.")
-Nino:AddSeperator("ThĂ´ng Tin PhĂ¡t Triá»ƒn")
-Nino:AddLabel("NhĂ  SĂ¡ng Láº­p: Nguyen Tien (Tiny)")
-Nino:AddLabel("Há»— Trá»£ Code: Lynx (Báº¡n GĂ¡i Cá»§a TĂ´i)")
-Nino:AddLabel("Ui: Thunderz Hub")
-NINO:AddLabel("Thank You For Assisting Me With\n The Script Interface!")
+NguyenTien:AddLabel("Do PhiĂªn Dá»‹ch KhĂ´ng Hiá»ƒu Háº¿t.\n Muá»‘n GĂ³p Ă HĂ£y Tham Gia Discord.")
+NguyenTien:AddSeperator("ThĂ´ng Tin PhĂ¡t Triá»ƒn")
+NguyenTien:AddLabel("NhĂ  SĂ¡ng Láº­p: Nguyen Tien (Tiny)")
+NguyenTien:AddLabel("Há»— Trá»£ Code: Lynx (Báº¡n GĂ¡i Cá»§a TĂ´i)")
+NguyenTien:AddLabel("Ui: Thunderz Hub")
+NguyenTien:AddLabel("Thank You For Assisting Me With\n The Script Interface!")
 
-NINO:AddSeperator("Máº¡ng XĂ£ Há»™i")
-NINO:AddButton("Discord Sever",function()
-setclipboard("https://discord.gg/z2Z7W4tXsv")
+NguyenTien:AddSeperator("Máº¡ng XĂ£ Há»™i")
+NguyenTien:AddButton("Discord Sever",function()
+setclipboard("https://discord.gg/Dg5nr8CrVV")
+Notif.New("Copying To Clipboard DoneđŸ‰", 3)
+end)
+NguyenTien:AddButton("YouTube Official",function()
+setclipboard("https://youtube.com/@imtienguyenz")
+Notif.New("Copying To Clipboard DoneđŸ‰", 3)
+end)
+NguyenTien:AddButton("Facebook Official Owner",function()
+setclipboard("https://www.facebook.com/minhtien.modder")
 Notif.New("Copying To Clipboard DoneđŸ‰", 3)
 end)
 ---- Trang Chá»§
@@ -5790,7 +5798,7 @@ spawn(function()
 							Title = "Notification", 
 							Text = "Not Have SharkMan Karate" ,
 							Icon = "http://www.roblox.com/asset/?id=15673928211",
-							Duration = 2.
+							Duration = 2.5
 						})
 					end
 					if game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyElectricClaw",true) == 1 then
